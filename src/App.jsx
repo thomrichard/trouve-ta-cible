@@ -215,7 +215,7 @@ export default function TrouveTaCible() {
         .spin { animation: spin 1s linear infinite; }
         @keyframes spin { to { transform: rotate(360deg); } }
       `}</style>
-      <div className="fade" key={parsed ? "result" : loading ? "loading" : current} style={{ width: "100%", maxWidth: "620px" }}>
+      <div className="fade" key={parsed ? "result" : loading ? "loading" : current} style={{ width: "400px" }}>
         {/* Header */}
         <div style={{ marginBottom: "40px", textAlign: "center" }}>
           <div style={{ fontSize: "11px", letterSpacing: "3px", color: "#e8c547", textTransform: "uppercase", fontWeight: 500, marginBottom: "12px" }}>
