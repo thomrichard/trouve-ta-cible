@@ -199,7 +199,7 @@ export default function TrouveTaCible() {
       background: "#0a0a0a",
       display: "flex",
       justifyContent: "center",
-      alignItems: "flex-start",
+      alignItems: "center",
       padding: "48px 24px",
       fontFamily: "'DM Sans', sans-serif",
     }}>
